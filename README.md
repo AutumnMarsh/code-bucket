@@ -1,2 +1,2 @@
 # code-bucket
-catch-all container
+This is a catch-all container for work outside of client or class projects.
