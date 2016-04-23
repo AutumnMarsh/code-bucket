@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #000;
+    font-family: 'Warnes', cursive;
+}
+h1.neon {
+    color: hotpink;
+    text-align: center;
+    display: block;
+    font-size: 125px;
+    font-weight: 100;
+    margin: 1em 1em .5em 1em;
+    text-shadow: 5px 5px 12px;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: neon;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-duration: 1s;
+    -moz-animation-name: neon;
+    -moz-animation-direction: alternate;
+    -moz-animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-name: neon;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes neon {
+    from { text-shadow: 2px 2px 15px hotpink; }
+    to { text-shadow: 5px 5px 20px hotpink; }
+}
+
+h1.portfolioTitle {
+    font-family: 'Ubuntu', Arial, sans-serif;
+    color: darkturquoise;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 100;
+    letter-spacing: .1em;
+}
